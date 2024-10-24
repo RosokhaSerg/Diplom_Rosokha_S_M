@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="719dc1ec-c817-4e8d-be4d-e6004bf51913">
+  <name>РасчётУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчёт управленческой зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.CalculationType</picture>
+  </picture>
+  <content>Document.ВКМ_ВыплатыЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+</mdclass:Subsystem>
